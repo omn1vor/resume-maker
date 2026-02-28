@@ -121,6 +121,7 @@ body {
 }
 
 .entry-sub {
+    white-space: pre-line;
     font-size: 11px;
     color: #666;
     margin-top: 3px;
@@ -262,7 +263,7 @@ a {
             {{ range .Resume.Education }}
             <div class="edu-entry">
                 <div>{{ .Major }}</div>
-                <div>{{ .Institution }} — {{ .Year }}</div>
+                <div>{{ .Institution }} {{ if .Year }} — {{ .Year }} {{ end }} </div>
             </div>
             {{ end }}
         </div>

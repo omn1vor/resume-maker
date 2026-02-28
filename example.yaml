@@ -44,8 +44,10 @@ experience:
       - Kafka
       - Docker
       - MySQL
-    comment: >-
+    # Example with several lines with line breaks
+    comment: |
       Developed web analytics Spring service in a team.
+      Completed internal training suite for Kafka
   - company: Elevel
     position: Senior developer (1C:Enterprise)
     start: 2015 # You can write dates however you like ('aug 2015', '01.08.2015', etc), it's just a string

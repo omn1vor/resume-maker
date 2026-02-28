@@ -1,1 +1,5 @@
 .vscode/
+*.pdf
+*yaml
+
+!example.yaml
